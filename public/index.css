@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 1280px;
+  height: 832px;
+  position: relative;
+  background: #DCEEFE;
+  overflow: hidden;
+}
+
+/* Buttons */
+.button {
+  width: 258px;
+  height: 62px;
+  position: absolute;
+  background: #2563EB;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.button-inner {
+  width: 100%;
+  padding: 10px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-text {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Positioning buttons */
+.take-quiz {
+  left: 79px;
+  top: 418px;
+}
+
+.make-quiz {
+  left: 382px;
+  top: 418px;
+}
+
+/* Subtexts */
+.subtext {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.take-text {
+  left: 93px;
+  top: 497px;
+}
+
+.make-text {
+  left: 387px;
+  top: 497px;
+}
+
+/* Title */
+.title {
+  position: absolute;
+  left: 79px;
+  top: 251px;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  color: #1C1C1C;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Subtitle */
+.subtitle {
+  position: absolute;
+  left: 119px;
+  top: 318px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #444444;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Images */
+.main-img {
+  position: absolute;
+  width: 617px;
+  height: 617px;
+  left: 663px;
+  top: 80px;
+}
+
+.decor-img {
+  position: absolute;
+  width: 145px;
+  height: 109px;
+  left: 482px;
+  top: -142px;
+}
