@@ -5,7 +5,7 @@ export default function Landing() {
 
   return (
     
- <div data-layer="Welcome Screen" className="WelcomeScreen w-[1280px] h-[832px] relative bg-blue-100 overflow-hidden">
+<div data-layer="Welcome Screen" className="WelcomeScreen w-[1280px] h-[832px] relative bg-blue-100 overflow-hidden">
   <div data-layer="Button" data-show-icon="False" data-state="Enabled" data-style="Filled" className="Button w-64 h-16 left-[79px] top-[418px] absolute bg-blue-600 rounded-[35px] inline-flex flex-col justify-center items-center gap-2 overflow-hidden">
     <div data-layer="state-layer" className="StateLayer self-stretch flex-1 px-6 py-2.5 inline-flex justify-center items-center gap-2">
       <div data-layer="label-text" className="LabelText text-center justify-center text-white text-3xl font-bold font-['Roboto'] leading-tight tracking-tight">Take a Quiz</div>
@@ -26,4 +26,3 @@ export default function Landing() {
     
   );
 }
-import React from 'react';
